@@ -14,17 +14,28 @@
 aside {
   background-color: #0ea5e9;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100vh;
 }
 
 .menu {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  justify-content: left;
+  margin-left: 20px;
+}
+
+.dashboard {
+  margin: 10px 0 20px 20px;
+}
+
+.dashboard-icon {
+  margin-right: 10px;
+  font-size: 40px;
 }
 
 .icon {
-  margin-right: 20px;
+  margin: 0 10px 10px 0;
+  font-size: 30px;
 }
+
+/*-------------------------- end top dashboard---------------------- */
