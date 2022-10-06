@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #94a3b8;
+}
+
+body {
+  background-color: #fff;
+}
 .container {
   display: grid;
   max-width: 1200px;
@@ -21,21 +28,27 @@ aside {
   display: flex;
   align-items: center;
   justify-content: left;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .dashboard {
-  margin: 10px 0 20px 20px;
+  margin: 0.625rem 0 1.25rem 1.25rem;
 }
 
 .dashboard-icon {
-  margin-right: 10px;
-  font-size: 40px;
+  margin-right: 0.625rem;
+  font-size: 2.5rem;
 }
 
 .icon {
-  margin: 0 10px 10px 0;
-  font-size: 30px;
+  margin: 0 0.625rem 0.625rem 0;
+  font-size: 1.8rem;
 }
 
 /*-------------------------- end top dashboard---------------------- */
+
+/* --------------------------- low list dashboard  ----------------------------- */
+
+.settings {
+  margin-top: 5rem;
+}
