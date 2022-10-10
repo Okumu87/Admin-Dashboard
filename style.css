@@ -16,7 +16,6 @@ body {
   margin: 0 auto;
   grid-template-columns: 20% auto;
   grid-template-rows: 1fr 3fr;
-  background-color: bisque;
 }
 
 aside {
@@ -75,8 +74,43 @@ header {
   display: flex;
   align-items: center;
   width: 900px;
+  margin-left: 0.8rem;
 }
 
-.top--side-2 {
-  justify-content: space-around;
+input {
+  width: 20rem;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  height: 1.5rem;
+  background-color: rgb(226 232 240);
 }
+.top--side-2 {
+  justify-content: space-between;
+}
+
+/* --------------------------- second top-side-header ----------------------------- */
+
+.left--side,
+.down--nav--text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left--side img {
+  margin: 0.8rem;
+}
+
+li {
+  display: inline-block;
+
+  background-color: #0ea5e9;
+  border-radius: 50px;
+  margin-left: 0.8rem;
+  margin-inline-end: 2rem;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+/* --------------------------- main-header  ----------------------------- */
