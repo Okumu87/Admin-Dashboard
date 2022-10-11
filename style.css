@@ -114,3 +114,30 @@ li {
 }
 
 /* --------------------------- main- content  ----------------------------- */
+
+.main-content {
+  background-color: #cbd5e1;
+  border-top: 0.067rem solid #94a3b8;
+}
+
+.your--projects {
+  background-color: #f9fafb;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+/* --------------------------- Announcements  ----------------------------- */
+.announcements {
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --------------------------- Trending  ----------------------------- */
+
+.trending {
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+}
